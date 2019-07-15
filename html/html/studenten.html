@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/hhs.css">
+		<script src="../js/index.js"></script>
+	</head>
+	<body>
+		<div class="flex"><a href="../html/studenten.html"><img class="logo" src="../images/logohhs.png"></a></div>
+		<header>
+			<div class="flex-container nav">
+				<a class="flex-item" href="../html/studenten.html">HOME</a>
+				<a class="flex-item" href="../html/tips&advies.html">TIPS&ADVIES</a>
+				<a class="flex-item" href="../html/laatstenieuws.html">STAGE ERVARINGEN</a>
+				<a class="flex-item" href="../html/centreofexpertice.html">CENTRE OF EXPERTISE</a>
+				<a class="flex-item" href="../html/contact.html">CONTACT</a>
+				<input type="text" name="name" id="input" placeholder="Type je vraag">
+			</div>
+		</header>
+		<div class="grid-container1">
+			<div class="info1">
+				<select id="niveau">
+					<option value="1" selected="selected">Niveau</option>
+					<option value="2">WO</option>
+					<option value="3">HBO</option>
+					<option value="4">MBO</option>
+				</select>
+			</div>
+			<div class="info2"><input type="text" name="name" id="studie" placeholder="Type jouw studie"></div>
+			<div class="info3">			
+				<select id="niveau">
+					<option value="1" selected="selected">Waar?</option>
+					<option value="2">Amsterdam</option>
+					<option value="3">Denhaag</option>
+					<option value="4">Gouda</option>
+				</select>
+			</div>
+		</div>	
+		<button class="button">Zoek!</button>
+		<div class="info4">
+			<h2>Stage vinden?</h2>
+		</div>
+		
+	 	
+		<div class="grid-container2">
+
+			<div class="doos1">
+			  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+			  <p class="filternaam">Begin datum</p>
+			  <button class="btn" onclick="filterSelection('September')"> September</button>
+			  <button class="btn" onclick="filterSelection('Februari')"> Februari</button>
+			  <p class="filternaam">Stage soort</p>
+			  <button class="btn" onclick="filterSelection('Oktober')"> Meeloopstage</button>
+			  <button class="btn" onclick="filterSelection('November')"> Meewerkstage</button>
+			  <p class="filternaam">Stage duur</p>
+			  <button class="btn" onclick="filterSelection('December')">T/m 10 weken</button>
+			  <button class="btn" onclick="filterSelection('Januari')"> T/m 20 weken</button>
+			  <button class="btn" onclick="filterSelection('Maart')"> T/m 30 weken</button>
+			  <button class="btn" onclick="filterSelection('April')"> T/m 40 weken</button>
+			  <button class="btn" onclick="filterSelection('Mei')"> T/m 50 weken</button>
+			</div>
+
+			<div class="doos2 container">
+				<a href="../html/BNN.html"><div class="stage filterDiv Mei">
+					<h3 id="tekst1">Media stage bij 3FM bij Sander Hoogedoorn</h3>
+					<b><p id="tekst5">
+						Functie:<br/>
+						Opleidingsniveau:<br/>
+						Stad:<br/>
+						Stageduur:<br/>
+						Beschikbaarheid:<br/>
+					</p></b>
+					<p id="tekst3">Stagiair (beveiligings)techniek<br/>
+					HBO/MBO<br/>
+					Hilversum<br/>
+					6 maanden<br/>
+					Beschikbaar<br/></p>
+
+					<img class="stagebnn" src="../images/stagebnn.jpg">
+				</div></a>
+
+				<div class="stage Juni filterDiv">
+					<h3 id="tekst1">Marketing & Communicatie stage bij webwinkel</h3>
+					<b><p id="tekst5">
+						Functie:<br/>
+						Opleidingsniveau:<br/>
+						Stad:<br/>
+						Stageduur:<br/>
+						Beschikbaarheid:<br/>
+					</p></b>
+					<p id="tekst3">Hoofd communicatie<br/>
+					HBO<br/>
+					Aalsmeer<br/>
+					12 maanden<br/>
+					Beschikbaar<br/></p>
+
+					<img class="ridderkerk" src="../images/ridderkerk.jpg">
+				</div>
+				
+				<div class="stage Mei filterDiv">
+					<h3 id="tekst1">UI designer bij Van Maanen</h3>
+					<b><p id="tekst5">
+						Functie:<br/>
+						Opleidingsniveau:<br/>
+						Stad:<br/>
+						Stageduur:<br/>
+						Beschikbaarheid:<br/>
+					</p></b>
+					<p id="tekst3">UI designer<br/>
+					HBO<br/>
+					Sassenheim<br/>
+					6 maanden<br/>
+					Beschikbaar<br/></p>
+
+					<img class="bakker" src="../images/bakker.jpeg">
+				</div>
+				
+				<div class="stage Januari filterDiv">
+					<h3 id="tekst1">UI designer bij Van Maanen</h3>
+					<b><p id="tekst5">
+						Functie:<br/>
+						Opleidingsniveau:<br/>
+						Stad:<br/>
+						Stageduur:<br/>
+						Beschikbaarheid:<br/>
+					</p></b>
+					
+					<p id="tekst3">UI designer<br/>
+					HBO<br/>
+					Sassenheim<br/>
+					6 maanden<br/>
+					Beschikbaar<br/></p>
+					<img class="bakker" src="../images/bakker.jpeg">
+				</div>
+				
+				<div class="stage September filterDiv">
+					<h3 id="tekst1">UI designer bij Van Maanen</h3>
+					<b><p id="tekst5">
+						Functie:<br/>
+						Opleidingsniveau:<br/>
+						Stad:<br/>
+						Stageduur:<br/>
+						Beschikbaarheid:<br/>
+					</p></b>
+					
+					<p id="tekst3">UI designer<br/>
+					HBO<br/>
+					Sassenheim<br/>
+					6 maanden<br/>
+					Beschikbaar<br/></p>
+					<img class="bakker" src="../images/bakker.jpeg">
+				</div>
+
+				<div class="stage Oktober filterDiv">
+					<h3 id="tekst1">UI designer bij Van Maanen</h3>
+					<b><p id="tekst5">
+						Functie:<br/>
+						Opleidingsniveau:<br/>
+						Stad:<br/>
+						Stageduur:<br/>
+						Beschikbaarheid:<br/>
+					</p></b>
+					
+					<p id="tekst3">UI designer<br/>
+					HBO<br/>
+					Sassenheim<br/>
+					6 maanden<br/>
+					Beschikbaar<br/></p>
+					<img class="bakker" src="../images/bakker.jpeg">
+				</div>
+
+				<div class="stage November filterDiv">
+					<h3 id="tekst1">UI designer bij Van Maanen</h3>
+					<b><p id="tekst5">
+						Functie:<br/>
+						Opleidingsniveau:<br/>
+						Stad:<br/>
+						Stageduur:<br/>
+						Beschikbaarheid:<br/>
+					</p></b>
+					
+					<p id="tekst3">UI designer<br/>
+					HBO<br/>
+					Sassenheim<br/>
+					6 maanden<br/>
+					Beschikbaar<br/></p>
+					<img class="bakker" src="../images/bakker.jpeg">
+				</div>
+
+				<div class="stage December filterDiv">
+					<h3 id="tekst1">UI designer bij Van Maanen</h3>
+					<b><p id="tekst5">
+						Functie:<br/>
+						Opleidingsniveau:<br/>
+						Stad:<br/>
+						Stageduur:<br/>
+						Beschikbaarheid:<br/>
+					</p></b>
+					
+					<p id="tekst3">UI designer<br/>
+					HBO<br/>
+					Sassenheim<br/>
+					6 maanden<br/>
+					Beschikbaar<br/></p>
+					<img class="bakker" src="../images/bakker.jpeg">
+				</div>
+
+				<div class="stage Januari filterDiv">
+					<h3 id="tekst1">UI designer bij Van Maanen</h3>
+					<b><p id="tekst5">
+						Functie:<br/>
+						Opleidingsniveau:<br/>
+						Stad:<br/>
+						Stageduur:<br/>
+						Beschikbaarheid:<br/>
+					</p></b>
+					
+					<p id="tekst3">UI designer<br/>
+					HBO<br/>
+					Sassenheim<br/>
+					6 maanden<br/>
+					Beschikbaar<br/></p>
+					<img class="bakker" src="../images/bakker.jpeg">
+				</div>
+
+				<div class="stage Februari filterDiv">
+					<h3 id="tekst1">UI designer bij Van Maanen</h3>
+					<b><p id="tekst5">
+						Functie:<br/>
+						Opleidingsniveau:<br/>
+						Stad:<br/>
+						Stageduur:<br/>
+						Beschikbaarheid:<br/>
+					</p></b>
+					
+					<p id="tekst3">UI designer<br/>
+					HBO<br/>
+					Sassenheim<br/>
+					6 maanden<br/>
+					Beschikbaar<br/></p>
+					<img class="bakker" src="../images/bakker.jpeg">
+				</div>
+
+				<div class="stage Maart filterDiv">
+					<h3 id="tekst1">UI designer bij Van Maanen</h3>
+					<b><p id="tekst5">
+						Functie:<br/>
+						Opleidingsniveau:<br/>
+						Stad:<br/>
+						Stageduur:<br/>
+						Beschikbaarheid:<br/>
+					</p></b>
+					
+					<p id="tekst3">UI designer<br/>
+					HBO<br/>
+					Sassenheim<br/>
+					6 maanden<br/>
+					Beschikbaar<br/></p>
+					<img class="bakker" src="../images/bakker.jpeg">
+				</div>
+
+				<div class="stage April filterDiv">
+					<h3 id="tekst1">UI designer bij Van Maanen</h3>
+					<b><p id="tekst5">
+						Functie:<br/>
+						Opleidingsniveau:<br/>
+						Stad:<br/>
+						Stageduur:<br/>
+						Beschikbaarheid:<br/>
+					</p></b>
+					
+					<p id="tekst3">UI designer<br/>
+					HBO<br/>
+					Sassenheim<br/>
+					6 maanden<br/>
+					Beschikbaar<br/></p>
+					<img class="bakker" src="../images/bakker.jpeg">
+				</div>
+
+			</div>
+		</div>
+
+		<footer>
+				<h1>Get social with us!</h1>
+				<img class="facebook" src="../images/facebook.png">
+				<img class="email" src="../images/email.png">
+				<img class="instagram" src="../images/instagram.png">
+		</footer>
+	</body>
+</html>

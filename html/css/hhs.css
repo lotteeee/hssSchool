@@ -1,0 +1,785 @@
+body {
+	width: 96%;
+	background-color: white;
+	margin: auto;
+	font-family: Arial;
+	src: url(MYRIADPRO-REGULAR.OTF);
+}
+
+.nav {
+	background-color: #223342;
+	height: 100px;
+}
+
+.flex-item:hover {
+	background-color: #B1B93A;
+	width: 100%;
+}
+ 
+header {
+	background-color: #233341;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+p {
+	font-size: 18px;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+	font-size: 36px;
+}
+
+h2{
+	text-align: center;
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+.logo {
+	width: 30%;
+	height: auto;
+	background-size: cover;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home-photo {
+	display: block;
+}
+
+.grid a {
+	display: block;
+}
+
+.flex-container{
+	display: flex;
+}
+
+.navigatie {
+	margin: 10px;
+	text-align: center;
+	color: white;
+	padding: 0px;
+}
+
+.flex-item {
+	flex: 1;
+	font-size: 18px;
+	padding-top: 3%;
+	color: white;
+	text-align: center;
+	margin-left: 0px;
+}
+
+.doos1{
+	grid-area: doos1;
+	font-size: 30px;
+	text-align: center;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.doos2{ 
+	
+	grid-area: doos2;
+	font-size: 30px;
+	text-align: center;
+ }
+
+.grid-container1 {
+	margin: 0 auto;
+	display: grid;
+	grid-template-rows: 100%;
+	width: 96%;
+	height: 350px;
+	grid-gap: 10px;
+	grid-template-areas: 'info1 info2 info3';
+	position: absolute;
+	background-image: url("../images/stage-zoeken-3.jpg");
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: #233341;
+}
+
+.grid-2 {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-gap: 2%;
+	margin-top: 2%;
+}
+
+.stage1, .stage2, .stage3{
+	border: 2px solid black;
+	width: 80%;
+	height: 200px;
+	border-radius: 10px;
+	margin-left: 10%;
+}
+
+.stage1{
+	grid-area:
+}
+
+.stage2{
+	grid-area:
+}
+
+.stage3{
+	grid-area:
+}
+
+.grid2{
+	max-width: 960px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 230px 380px;
+	grid-gap: 20%;
+	grid-template-areas: 'keutel1 keutel2'
+						'keutel3 keutel4';
+	margin-top: 3%;
+}
+
+.zij1, .zij2, .zij3, .zij4 {
+	font-size: 36px;
+	text-align: center;
+}
+
+.zij1{
+	grid-area: keutel1;
+}
+
+.zij2{
+	grid-area: keutel2;
+}
+
+.zij3{
+	grid-area: keutel3;
+}
+
+.zij4{
+	grid-area: keutel4;
+}
+
+.grid3{
+	max-width: 960px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px 200px;
+	grid-gap: 25%;
+	grid-template-areas: 'drol1 drol2'
+						'drol3 drol4';
+	margin-top: 5%;
+}
+
+.hij1, .hij2, .hij3, .hij4 {
+	font-size: 36px;
+	text-align: center;
+}
+
+.hij1{
+	grid-area: drol1;
+}
+
+.hij2{
+	grid-area: drol2;
+}
+
+.hij3{
+	grid-area: drol3;
+}
+
+.hij4{
+	grid-area: drol4;
+}
+
+.grid4{
+	max-width: 960px;
+	margin: 0 auto;
+	display: grid;
+	grid-gap: 30%;
+	grid-template-areas: 'card1 card2';
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.box1, .box2 {
+	font-size: 36px;
+	background-color: #F1F2F4;
+	padding: 5%;
+}
+
+.box1{
+	grid-area: card1;
+}
+
+.box2{
+	grid-area: card2;
+}
+
+.centre {
+	width: 100%;
+	height: auto;
+}
+
+.grid-container2 {
+	display: grid;
+	grid-template-rows: 100%;
+	grid-gap: 20px;
+	grid-template-areas: 'doos1 doos2 doos2 doos2 doos2';
+	margin-top: 22%;
+}
+
+select {
+	width: 150px;
+	height: auto;
+	background-color: white;
+}
+
+input {
+	width: 150px;
+	height: auto;
+}
+
+.button {
+	width: 155px;
+	height: 50px;
+	font-size: 24px;
+	color: white;
+	background-color: #9EA700;
+	position: absolute;
+	margin-top: 184px;
+	margin-left: 41%;
+	border-color: #9EA700;
+}
+
+.button2, .button3, .button4, .button5, .button6 {
+	width: 250px;
+	height: 50px;
+	font-size: 24px;
+	color: white;
+	background-color: #9EA700;
+	position: absolute;
+	border: black 1px solid;
+	border-radius: 5px;
+}
+
+.button2 {
+	margin-left: 20px;
+}
+
+.button4 {
+	margin-bottom: 20px;
+}
+
+.button5 {
+	margin-top: 22%;
+	margin-left: 2%;
+}
+
+.button6 {
+	margin-left: -8%;
+	margin-top: -1%;
+}
+
+.info1, .info2, .info3{
+	
+	font-size: 30px;
+	position: absolute;
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	margin-left: 28%;
+	margin-top: 150px;
+}
+
+.info1{
+	grid-area: info1;
+	margin-left: 92%;
+}
+
+.info2{
+	grid-area: info2;
+}
+
+.info3{
+	grid-area: info3;
+	margin-left: -35%;
+}
+
+.info4{
+	grid-area: info4;
+	position: relative;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 6%;
+	color: white;
+}
+
+footer{
+	background-color: #233341;
+	width: 100%;
+	height: 200px;
+	margin-top: 6%;
+}
+
+.instagram, .email {
+	width: auto;
+	height: 60px;
+}
+
+.facebook {
+	width: auto;
+	height: 120px;
+	margin-left: 170px;
+}
+
+.instagram {
+	margin-left: 950px;
+	margin-top: -90px;
+	margin-bottom: 40px;
+}
+
+.email{
+	margin-left: 270px;
+	margin-bottom: 30px;
+}
+
+#input {
+	width: 200px;
+	height: 20px;
+	margin-top: 35px;
+	margin-right: 20px;
+}
+
+.stage {
+	width: 95%;
+	border-radius: 15px;
+	border: black 1px solid;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+#tekst1{
+	text-align: left;
+	width: 100%;
+	margin-left: 20px;
+}
+
+#tekst2 {
+	margin-top: 18px;
+}
+
+#tekst2, #tekst5 {
+	text-align: left;
+	color: #737272;
+	font-size: 18px;
+	margin-left: 45px;
+	float: left;
+	display: inline-block;
+	
+}
+
+#tekst3 {
+	text-align: left;
+	font-size: 18px;
+	margin-left: 250px;
+	margin-top: 0px;
+}
+
+#tekst4 {
+	margin-left: 245px;
+}
+
+#tekst5{
+	margin-top: 0px;
+}
+
+.stagebnn, .ridderkerk, .bakker{
+	width: 250px;
+	height: 150px;
+	float: right;
+	margin-top: -145px;
+	margin-right: 40px;
+}
+
+.bnn {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	height: 250px;
+	margin-bottom: 20px;
+}
+
+.stageplek {
+	color: black;
+}
+
+.green {
+	color: #B1B93A;
+	margin-left: 1.5%;
+}
+
+.green2 {
+	color: #B1B93A;
+	text-align: center;
+}
+
+.green3 {
+	color: #B1B93A;
+	margin-bottom: 0px;
+}
+
+.blauw {
+	text-decoration: underline;
+	color: blue;
+	font-size: 18px;
+}
+
+.social {
+	margin-top: 4%;
+	padding-top: 20px;
+}
+
+.grijs {
+	background-color: #D7D7D7;
+	width: 40%;
+	height: auto;
+	float: right;
+	margin-top: 25px;
+}
+
+.donkerblauw{
+	background-color: #223342;
+	padding: 2%;
+	display: flex;
+}
+
+.stagetekst{
+	margin-left: 20px;
+	text-align: left;
+}
+
+.voornaam {
+	width: 30%;
+}
+
+.tussenvoegsel {
+	width: 20%;
+}
+
+.achternaam {
+	width: 40%;
+}
+
+.lang {
+	width: 91.63%;
+}
+
+.mid {
+	width: 70%;
+}
+textarea{
+	width: 70%;
+	height: 200px;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+.caption{
+	font-size: 12px;
+	color: #797979;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+input {
+	font-size: 15px;
+}
+
+select {
+	font-size: 15px;
+}
+
+.inbox {
+	font-size: 24px;
+	text-align: center;
+	margin-top: 24px;
+}
+
+.kwaliteit {
+	color: white;
+	margin-top: 0px;
+}
+
+.kwaliteitp {
+	color: white;
+	margin-left: 2%;
+	margin-right: 2%;
+	flex: 1;
+}
+
+.centre {
+	width: 400px;
+	height: 250px;
+	flex: 1;
+}
+
+.flex-box{
+	display: flex;
+}
+
+.contactG {
+	background-color: #D7D7D7;
+	flex: 1;
+}
+
+.contactB {
+	background-color: #233341;
+	flex: 1;
+	text-align: center;
+}
+
+.white {
+	color: white;
+	text-align: center;
+}
+
+.contactinfo{
+	text-align: center;
+}
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #223342;
+  margin: 0px;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: white;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: white;
+  text-decoration: none;
+}
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #9EA700;
+  text-decoration: underline;
+}
+
+.left {
+	float: left;
+	margin-top: 7%;
+	margin-left: 2%;
+}
+
+.right {
+	float: right;
+	margin-top: 6%;
+}
+
+.hele {
+	width: 100%;
+	position: absolute;
+}
+
+.opzij {
+	margin-left: 4%;
+}
+
+.filterDiv {
+  float: left;
+  text-align: center;
+  display: none;
+  padding-bottom: 3%;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  padding: 12px 16px;
+  cursor: pointer;
+  float: left;
+  background-color: #223342;
+  color: white;
+  margin-top: 5%;
+  font-size: 18px;
+}
+
+#myBtnContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn.active {
+  background-color: #9EA700;
+  color: white;
+}
+
+.tips{
+	height: auto;
+}
+
+.advies {
+	background-color: #223342;
+	height: auto;
+	min-height: 250px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.tips > p {
+	width: 68%;
+	margin-left: 30%;
+	margin-top: -12%;
+	margin-bottom: 4%;
+}
+
+.advies > p {
+	width: 68%;
+	margin-right: 29%;
+	margin-top: -10%;
+	margin-bottom: 4%;
+}
+
+.adviezen{
+	width: 15%;
+	height: auto;
+}
+
+.tips > img {
+	margin-left: 8%;
+	margin-top: -1%;
+
+}
+.advies > img {
+	margin-left: 75%;
+	margin-top: -2%; 
+}
+
+.kiezen {
+	width: 60%;
+	height: auto;
+}
+
+.pagina1{
+	text-align: center;
+}
+
+.border{
+	background-color: #233341;
+	height:50px;
+	width:100%;
+}
+
+.bar1, .bar2{
+	background-color: #9EA700;
+	color: white;
+	font-size: 25px;
+	height:50px;
+	text-align: center;
+	margin-bottom: 2%;
+}
+.bar1 {
+	width: 50%
+}
+
+.bar2{
+	width:100%;
+}
+
+
+
+form {
+	margin-top: 2%;
+}
+
+.body1 {
+	height: 290px;
+}
+
+.afbeelding{
+	width: auto;
+	height: 90%;
+	margin: 1%;
+	margin-left: 4%;
+}
+
+.naarrechts {
+	float: right;
+	width: 50%;
+	margin-right: 13%;
+}
+
+.size{
+	width: 20%;
+	height: auto;
+}
+
+.naarrechts {
+	float: right;
+	width: 50%;
+	margin-right: 13%;
+}
+
+.naarrechtss {
+	float: right;
+	width: 50%;
+	margin-right: 23%;
+}
+
+.groot {
+	font-size: 34px;
+	text-align: center;
+	float: right;
+}
+.helemaalrechts{
+	float: right;
+	margin-top: -15%;
+	margin-right: 5%;
+	background-color: #F1F2F4;
+}
+
+.filternaam {
+	background-color: #F1F2F4;
+}
